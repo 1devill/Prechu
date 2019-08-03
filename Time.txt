@@ -1,0 +1,7 @@
+Html structure - 1 hour 30 min
+Css stylization - 40 min
+Header - 2 hours 30 min
+Hero - 2 hours  30 min
+
+
+width="60" height="90"

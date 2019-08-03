@@ -1,0 +1,16 @@
+.header {
+    padding: 15px 15px 10px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ /******************************************** Media *********************************/
+ @media (min-width: 640px) {
+     .header {
+        padding: 22px 26px 18px 30px;
+     }
+ }

@@ -1,0 +1,22 @@
+.nav {
+    margin: 0 0 0 -15px;
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    display: none;
+}
+.nav-item {
+    margin: 0 0 0 15px
+}
+
+.nav-item.is-active {
+    border-bottom: 3px solid #5094f2;
+    padding-bottom: 17px;
+}
+/********************************* Media *********************************************/
+@media (min-width: 641px) {
+    .nav {
+        display: block;
+    }
+}

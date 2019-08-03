@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+  font-weight: 300;
+  color: #909090;
+  line-height: 21px;
+  font-family: 'Segoe WP N';
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-m {
+  box-sizing: content-box;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 10px 0;
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {
+  color: #6c6c6c;
+  text-decoration: none;
+  transition: 0.44s;
+}
+
+a:hover, .link:hover {
+  opacity: 0.77;
+  color: #5094f2;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.logo {
+  min-width: 40px;
+  min-height: 40px;
+  background-color: #5094f2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0.42px;
+  padding-left: 7px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+/*************************************** Media *********************************/
+@media (min-width: 640px) {
+  .logo {
+  width: 53px;
+  height: 52px;
+  }
+  .logo-text {
+  font-size: 49px;
+  padding-left: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1250px) {
+  .container-lg {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1650px) {
+  .container-xlg {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
