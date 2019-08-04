@@ -2,6 +2,13 @@ Html structure - 1 hour 30 min
 Css stylization - 40 min
 Header - 2 hours 30 min
 Hero - 2 hours  30 min
+Section 1 - 1 hour 40 min
+Section 2 - 1 hour 20 min
+Footer - 10 min
+Media and sh1t - 2 hours
 
+~12 - 13 hours overall time
 
-width="60" height="90"
+Не очень понятно как управлять размерами картинок, иконок, кнопок, когда на разных устройствах они выглядят по разному
+Короче, сложнее чем кажется
+Куча кода, но мне кажется много лишнего я написал.

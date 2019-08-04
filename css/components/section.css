@@ -18,7 +18,8 @@
 .section-background img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /********************************************* Section 1 Cards ***********************************************/
@@ -71,8 +72,12 @@
   .section-cards {
     padding-top: 40px;
   }
+
   .section-cards .card {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     border: none;
     text-align: center;
     padding-top: 0;
@@ -159,7 +164,9 @@
   }
 
   .section-cart .grid {
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 
   .section-cart .section-title {

@@ -6,15 +6,23 @@
   cursor: pointer;
   text-decoration: none;
   background-color: #5094f2;
+  -webkit-transition: 0.44s;
+  -o-transition: 0.44s;
   transition: 0.44s;
   color: rgb(5, 5, 5);
 }
 
 .button-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 14px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .button-primary  .icon {
@@ -61,7 +69,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .button-burger .button-text::before,
@@ -99,6 +109,8 @@
 
 @media (min-width: 640px) {
   .button-primary {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
   }
 
