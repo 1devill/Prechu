@@ -30,13 +30,13 @@
   min-height: 63px;
 }
 
-.hero > .hero-image-left {
-  margin: 0 60px 0 92px;
+.hero .hero-image-left {
+  margin: 0 0 0 60px;
   display: none;
 }
 
-.hero > .hero-image-right {
-  margin: 0 92px 0 60px;
+.hero .hero-image-right {
+  margin: 0 85px 0 0;
   display: none;
 }
 
@@ -98,5 +98,31 @@
 
   .hero .grid-item {
     padding: 0 0 0 66px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .hero .hero-image-left, .hero .hero-image-right  {
+    display: block
+  }
+
+  .hero-left > .hero-image {
+    max-width: none;
+  }
+
+  .hero .grid {
+    align-items: center;
+  }
+
+  .hero-title, .hero-subtitle {
+    font-weight: 300;
+    line-height: 44.42px;
+    /* Text style for "L, orem Ip" */
+    font-size: 42px;
+  }
+
+  .hero-subtitle {
+    font-size: 26px;
+    max-width: 60%;
   }
 }

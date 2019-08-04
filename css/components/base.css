@@ -19,13 +19,6 @@ body {
   overflow: hidden;
 }
 
-.container-m {
-  box-sizing: content-box;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 p, ul, ol, figure {
   margin: 0 0 10px 0;
 }
@@ -84,12 +77,28 @@ img {
 /*************************************** Media *********************************/
 @media (min-width: 640px) {
   .logo {
-  width: 53px;
-  height: 52px;
+    width: 53px;
+    height: 52px;
   }
   .logo-text {
-  font-size: 49px;
-  padding-left: 15px;
+    font-size: 49px;
+    padding-left: 15px;
+  }
+
+  .container-m {
+    box-sizing: content-box;
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container-lg {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: content-box;
   }
 }
 
