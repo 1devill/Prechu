@@ -194,3 +194,11 @@
   line-height: 40px;
   text-align: center;
 }
+
+.section-photos .swiper-button-next {
+  background-image: url(../../images/arrow-right.png);
+}
+
+.section-photos .swiper-button-prev {
+  background-image: url(../../images/arrow-left.png);
+}

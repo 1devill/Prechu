@@ -2,7 +2,7 @@
     margin: 0 auto;
     height: 50vh;
     width: 100vw;
-  }
+}
 .swiper-slide {
     width: 100%;
     text-align: center;
@@ -21,4 +21,4 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
