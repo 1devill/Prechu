@@ -197,8 +197,10 @@
 
 .section-photos .swiper-button-next {
   background-image: url(../../images/arrow-right.png);
+  right: 30px;
 }
 
 .section-photos .swiper-button-prev {
   background-image: url(../../images/arrow-left.png);
+  left: 30px;
 }
